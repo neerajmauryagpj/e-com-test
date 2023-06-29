@@ -1,0 +1,23 @@
+@import './base.css';
+#app {
+  letter-spacing: 1px;
+}
+a,
+.green {
+  text-decoration: none;
+  color: --v-theme--info;
+  transition: 0.4s;
+}
+
+@media (hover: hover) {
+  // a:hover {
+  //   background-color: hsla(160, 100%, 37%, 0.2);
+  // }
+}
+.v-card-text {
+  letter-spacing: 0.75px;
+}
+.v-field--variant-outlined.v-field--focused .v-field__outline {
+  --v-filed-border-width: 1px !important;
+  border-width: 1px;
+}
